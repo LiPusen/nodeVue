@@ -1,11 +1,11 @@
 <template lang="html">
   <div class="about" v-loading="loading2" element-loading-text="加载中">
     <div v-if="shows">
-      <h2>平凡之路</h2>
-      <p>一个有强迫症的前端患者</p>
+      <h2>喃喃自语</h2>
+      <p>一个茫然的前端从业者</p>
       <p><a href="https://github.com/elva2596" target="_blank">Github</a>&nbsp;&nbsp;<a href="https://juejin.im/timeline">掘金</a><a href="http://www.jianshu.com/u/556ae9b7eaf5">简书</a></p>
-      <h2>关于网站</h2>
-      <p>本站服务端采用 express + mongoDB 搭建, 客户端采用Vue2全家桶</p>
+      <h2>本网站技术栈</h2>
+      <p>后端服务端采用 express + mongoDB 搭建, 客户端采用Vue2全家桶</p>
       <p>主要功能包括: 后台登录, 注册, 管理, 标签, 文章, 支持markdown语法编辑, 支持代码高亮</p>
       <p>主要技术栈: express, mongoolass, vue2, vue2-router, vuex, axios, es6, element ui</p>
     </div>

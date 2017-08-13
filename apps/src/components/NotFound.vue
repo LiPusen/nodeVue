@@ -2,7 +2,7 @@
     <div class="NotFound">
       <div class="wrap">
         <h1>哎呀,您走远了 !</h1>
-        <p><a @click="goHome" href="javascript:;">请重回主页</a></p>
+        <p><a @click="goHome" href="javascript:void(0);">请重回主页</a></p>
       </div>
 
     </div>

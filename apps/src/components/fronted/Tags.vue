@@ -79,7 +79,7 @@ export default {
           setTimeout(()=>{
             this.loading2=false;
             this.items = lists
-            this.getPage('Vue')
+            this.gets('0',lists[0].classify)
           },200)
         }
 
