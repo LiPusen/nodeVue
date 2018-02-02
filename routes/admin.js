@@ -4,7 +4,7 @@ var router = express.Router();
 router.get('/admin', checkToekn, function (req, res, next) {
   res.send({
     type: true,
-    name: 'dailu'
+    name: 'ok'
   });
 });
 module.exports = router
